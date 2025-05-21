@@ -17,4 +17,6 @@ const findMax = (arr) => {
   return arr.reduce((acc, cur) => {
     return cur > acc ? cur : acc;
   }, 0);
-};
+}; //best approach
+console.log(findMax([1, 45, 11, 22, 567, 0, 9, 7]));
+// Output: 567
